@@ -8,7 +8,7 @@
 
 🎓 Estudante de **Engenharia de Computação** no **CEFSA**  
 💼 **Estagiário em Desenvolvimento** na **Metagal**  
-📍 **São Paulo, Brasil** · 🏫 **ETESP** (Técnico em DS)
+📍 **São Paulo, Brasil** · 🏫 **FESA** (Engenharia de Computação)
 
 ```python
 class Guilherme:
