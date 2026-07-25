@@ -9,6 +9,8 @@
 Software Engineer passionate about building digital experiences for the web.  
 I love turning ideas into clean, functional, and delightful code.
 
+> 📍 **Delray Beach, FL** · Building the web, one commit at a time.
+
 <br/>
 
 ### 🤝 Connect with me
