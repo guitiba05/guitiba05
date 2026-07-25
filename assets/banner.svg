@@ -46,7 +46,7 @@
 
   <!-- Title line -->
   <text x="130" y="105" font-family="sans-serif" font-size="14" fill="#a371f7">
-    Computer Engineering Student  |  Dev Intern @ Metagal
+    Computer Engineering Student  |  Dev Intern
   </text>
 
   <!-- Skills line -->
@@ -56,7 +56,7 @@
 
   <!-- Location -->
   <text x="130" y="152" font-family="sans-serif" font-size="12" fill="#8b949e">
-    Sao Paulo, Brazil  |  FESA - Engenharia de Computacao
+    Sao Paulo, Brazil  |  FESA
   </text>
 
   <!-- Status badge -->
@@ -66,7 +66,7 @@
   <!-- Bottom divider -->
   <rect x="130" y="168" width="640" height="1" fill="url(#accent)" opacity="0.3"/>
   <text x="130" y="186" font-family="monospace" font-size="10" fill="#484f58">
-    STATUS: learning  |  FOCUS: back-end &amp; automation  |  UPTIME: 24/7
+    STATUS: learning  |  UPTIME: 24/7
   </text>
 
   <rect x="0" y="197" width="900" height="3" fill="url(#accent)" opacity="0.9"/>

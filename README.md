@@ -6,9 +6,9 @@
 
 # 👋 Olá! Sou o Guilherme
 
-🎓 Estudante de **Engenharia de Computação** no **CEFSA**  
-💼 **Estagiário em Desenvolvimento** na **Metagal**  
-📍 **São Paulo, Brasil** · 🏫 **FESA** (Engenharia de Computação)
+🎓 Estudante de **Engenharia de Computação** na **FESA**  
+💼 **Estagiário em Desenvolvimento**  
+📍 **São Paulo, Brasil**
 
 ```python
 class Guilherme:
