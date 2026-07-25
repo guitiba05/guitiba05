@@ -32,7 +32,7 @@ class Guilherme:
   <a href="https://github.com/guitiba05" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="mailto:guilhermeeiditiba@gmail.com">
+  <a href="mailto:guitiba05@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
