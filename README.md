@@ -61,12 +61,8 @@ class Guilherme:
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=guitiba05&theme=dark" alt="GitHub Profile Summary"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=guitiba05&theme=dark" alt="Stats"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=guitiba05&theme=dark" alt="Languages"/>
+  <img height="180em" src="https://gh-readme-stats.vercel.app/api?username=guitiba05&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=guitiba05&layout=compact&theme=dark&hide_border=true"/>
 </p>
 
 <p align="center">
