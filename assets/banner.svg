@@ -52,26 +52,26 @@
 
   <!-- Title -->
   <text x="50" y="125" font-family="'Segoe UI', -apple-system, sans-serif" font-size="18" fill="#58a6ff" filter="url(#glow)">
-    Software Engineer
+    Computer Engineering Student · Developer
   </text>
 
   <!-- Tagline -->
   <text x="50" y="152" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" fill="#8b949e">
-    Building digital experiences for the web ✦
+    Python · Java · C# · SQL · TypeScript ✦
   </text>
 
   <!-- Location badge -->
   <rect x="50" y="162" width="0" height="0" rx="4" fill="#21262d"/>
   <text x="50" y="178" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" fill="#8b949e">
-    ▼ Delray Beach, FL
+    ▼ São Paulo, Brasil
   </text>
 
   <!-- Code decorations (right side) -->
   <text x="620" y="55" font-family="'Courier New', monospace" font-size="11" fill="#21262d" opacity="0.6">
     <tspan x="620" dy="0">┌─────────────────────┐</tspan>
-    <tspan x="622" dy="16">│  status: active      │</tspan>
-    <tspan x="622" dy="16">│  focus: web dev      │</tspan>
-    <tspan x="622" dy="16">│  uptime: ∞           │</tspan>
+    <tspan x="622" dy="16">│  status: learning    │</tspan>
+    <tspan x="622" dy="16">│  focus: dev intern   │</tspan>
+    <tspan x="622" dy="16">│  uptime: always      │</tspan>
     <tspan x="620" dy="16">└─────────────────────┘</tspan>
   </text>
 
