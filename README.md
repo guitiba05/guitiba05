@@ -87,6 +87,3 @@ class Guilherme:
   
   <em>⚡ "Transformando ideias em código, um commit de cada vez."</em>
 </div>
-
-<!-- PS3 -->
-<!-- PS4 -->
