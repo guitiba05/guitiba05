@@ -1,30 +1,39 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="Guilherme Eidi Tiba - Software Engineer" />
+  <img src="assets/banner.svg" width="100%" alt="Guilherme Eidi Tiba - Computer Engineering Student" />
 </div>
 
 <br/>
 
 # 👋 Olá! Sou o Guilherme
 
-🎓 Estudante de **Engenharia de Computação** na **Faculdade Engenheiro Salvador Arena (CEFSA)**  
-💼 **Estagiário em Desenvolvimento** na **Metagal Indústria e Comércio Ltda.**  
-📍 **São Paulo, Brasil**
+🎓 Estudante de **Engenharia de Computação** no **CEFSA**  
+💼 **Estagiário em Desenvolvimento** na **Metagal**  
+📍 **São Paulo, Brasil** · 🏫 **ETESP** (Técnico em DS)
 
-> 💡 Transformando ideias em código — apaixonado por tecnologia, inovação e resolver problemas reais.
+```python
+class Guilherme:
+    def __init__(self):
+        self.focus   = ["Back-end", "Automation", "Web Dev"]
+        self.stack   = ["Python", "Java", "C#", "SQL", "TypeScript"]
+        self.learning = "Sempre evoluindo 🚀"
+    
+    def greet(self):
+        return "Transformando ideias em código!"
+```
 
 <br/>
 
-### 🤝 Connect with me
+### 🤝 Vamos nos conectar?
 
 <p align="center">
   <a href="http://linkedin.com/in/guilherme-eidi-tiba" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/guitiba05" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="mailto:guilhermeeiditiba@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
@@ -107,5 +116,5 @@
   <br/>
   <br/>
   
-  <em>⚡ "Code is like humor. When you have to explain it, it's bad."</em>
+  <em>⚡ "Transformando ideias em código, um commit de cada vez."</em>
 </div>
