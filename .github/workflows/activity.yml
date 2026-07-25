@@ -2,8 +2,11 @@ name: Update Recent Activity
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Runs every 6 hours
-  workflow_dispatch:         # Allows manual trigger
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-activity:
@@ -13,5 +16,6 @@ jobs:
       - uses: jamesgeorge007/github-activity-readme@master
         with:
           COMMIT_MSG: "⚡ Update recent GitHub activity"
+          MAX_LINES: 10
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
