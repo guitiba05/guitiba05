@@ -61,8 +61,12 @@ class Guilherme:
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=guitiba05&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guitiba05&layout=compact&theme=dark&hide_border=true"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=guitiba05&theme=dark" alt="GitHub Profile Summary"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=guitiba05&theme=dark" alt="Stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=guitiba05&theme=dark" alt="Languages"/>
 </p>
 
 <p align="center">
@@ -71,42 +75,11 @@ class Guilherme:
 
 ---
 
-### 🐍 Contribution Graph
+### 📈 Contribution Graph
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/guitiba05/guitiba05/blob/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/guitiba05/guitiba05/blob/output/github-contribution-grid-snake.svg">
-    <img alt="Snake animation eating my contributions" src="https://github.com/guitiba05/guitiba05/blob/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=guitiba05&theme=github-dark&bg_color=0d1117&hide_border=true" width="100%" alt="Activity Graph"/>
 </div>
-
----
-
-### 🎧 Currently Vibing
-
-<p align="center">
-  <a href="https://spotify-github-profile.vercel.app/api/view?uid=guilhermeeiditiba&redirect=true">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=guilhermeeiditiba&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false" />
-  </a>
-</p>
-
----
-
-### 📌 Recent GitHub Activity
-
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
-
-<!--RECENT_ACTIVITY:last_update-->
-<!--RECENT_ACTIVITY:last_update_end-->
-
----
-
-### 📈 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
 
 ---
 
