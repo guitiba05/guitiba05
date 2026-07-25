@@ -1,133 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
   <defs>
-    <!-- Background gradient: Dark with purple/blue glow -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0e14;stop-opacity:1" />
-      <stop offset="40%" style="stop-color:#0d1117;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#0a0e14"/>
+      <stop offset="50%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
     </linearGradient>
-
-    <!-- Accent gradient: Purple to Cyan -->
-    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#a371f7;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#58a6ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3fb950;stop-opacity:1" />
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a371f7"/>
+      <stop offset="50%" style="stop-color:#58a6ff"/>
+      <stop offset="100%" style="stop-color:#3fb950"/>
     </linearGradient>
-
-    <!-- Pro glow -->
-    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#a371f7;stop-opacity:0.4" />
-      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
+    <linearGradient id="glowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a371f7;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0"/>
     </linearGradient>
-
-    <!-- Grid pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5" opacity="0.3"/>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#21262d" stroke-width="0.5" opacity="0.4"/>
     </pattern>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#30363d" opacity="0.3"/>
-    </pattern>
-
-    <!-- Glow filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Avatar clip -->
-    <clipPath id="avatarClip">
-      <circle cx="110" cy="108" r="38"/>
-    </clipPath>
   </defs>
 
-  <!-- Background layers -->
-  <rect width="900" height="220" fill="url(#bg)" rx="12"/>
-  <rect width="900" height="220" fill="url(#grid)" rx="12"/>
-  <rect width="900" height="220" fill="url(#dots)" rx="12"/>
+  <rect width="900" height="200" fill="url(#bg)" rx="10"/>
+  <rect width="900" height="200" fill="url(#grid)" rx="10"/>
+  <rect x="0" y="0" width="900" height="3" fill="url(#accent)" opacity="0.9"/>
 
-  <!-- Glow accent spot -->
-  <ellipse cx="350" cy="110" rx="300" ry="100" fill="url(#accent2)"/>
+  <!-- Decorative dots -->
+  <circle cx="60" cy="30" r="2" fill="#a371f7" opacity="0.5"/>
+  <circle cx="840" cy="40" r="2.5" fill="#58a6ff" opacity="0.4"/>
+  <circle cx="780" cy="170" r="2" fill="#3fb950" opacity="0.3"/>
+  <circle cx="120" cy="170" r="1.5" fill="#a371f7" opacity="0.3"/>
+  <ellipse cx="400" cy="100" rx="250" ry="80" fill="url(#glowBg)"/>
 
-  <!-- Top accent bar -->
-  <rect x="0" y="0" width="900" height="3" fill="url(#accent1)" opacity="0.8"/>
+  <!-- Avatar circle -->
+  <circle cx="80" cy="95" r="35" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="74" y="105" font-family="monospace" font-size="26" fill="#58a6ff">&gt;_</text>
 
-  <!-- Decorative circles -->
-  <circle cx="750" cy="40" r="4" fill="#a371f7" opacity="0.4">
-    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="780" cy="30" r="2" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="150" cy="180" r="3" fill="#3fb950" opacity="0.3">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="820" cy="180" r="2" fill="#a371f7" opacity="0.3"/>
-  <circle cx="680" cy="190" r="1.5" fill="#58a6ff" opacity="0.2"/>
-
-  <!-- Avatar circle outline -->
-  <circle cx="110" cy="108" r="42" fill="none" stroke="url(#accent1)" stroke-width="2" opacity="0.6"/>
-  <circle cx="110" cy="108" r="38" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <!-- Terminal icon inside avatar placeholder -->
-  <text x="110" y="118" font-family="'Courier New', monospace" font-size="32" fill="#58a6ff" text-anchor="middle">&gt;_</text>
-
-  <!-- Terminal prefix -->
-  <text x="170" y="62" font-family="'Courier New', monospace" font-size="13" fill="#8b949e">
-    <tspan fill="#3fb950">guitiba05</tspan><tspan fill="#8b949e">@github</tspan><tspan fill="#58a6ff">:~$</tspan> ./welcome.sh
+  <!-- Terminal line -->
+  <text x="130" y="48" font-family="monospace" font-size="12" fill="#8b949e">
+    <tspan fill="#3fb950">guitiba05</tspan><tspan fill="#8b949e">@github:~$</tspan> cat profile.md
   </text>
-  <rect x="415" y="53" width="8" height="14" fill="#58a6ff" opacity="0.8">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
 
   <!-- Name -->
-  <text x="170" y="95" font-family="'Segoe UI', -apple-system, sans-serif" font-size="32" font-weight="700" fill="#e6edf3" filter="url(#glow)">
+  <text x="130" y="80" font-family="sans-serif" font-size="28" font-weight="bold" fill="#e6edf3">
     Guilherme Eidi Tiba
   </text>
 
-  <!-- Title with badges -->
-  <text x="170" y="122" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" fill="#a371f7">
-    ⚡ Computer Engineering Student
-  </text>
-
-  <text x="370" y="122" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" fill="#58a6ff">
-    ● Development Intern @ Metagal
+  <!-- Title line -->
+  <text x="130" y="105" font-family="sans-serif" font-size="14" fill="#a371f7">
+    Computer Engineering Student  |  Dev Intern @ Metagal
   </text>
 
   <!-- Skills line -->
-  <text x="170" y="148" font-family="'Courier New', monospace" font-size="12" fill="#8b949e">
-    <tspan fill="#ff7b72">import</tspan> { <tspan fill="#79c0ff">Python</tspan>, <tspan fill="#79c0ff">Java</tspan>, <tspan fill="#79c0ff">C#</tspan>, <tspan fill="#79c0ff">SQL</tspan>, <tspan fill="#79c0ff">TypeScript</tspan> } <tspan fill="#ff7b72">from</tspan> <tspan fill="#a5d6ff">"tech-stack"</tspan>;
+  <text x="130" y="130" font-family="monospace" font-size="12" fill="#8b949e">
+    <tspan fill="#ff7b72">import</tspan> { Python, Java, C#, SQL, TypeScript }
   </text>
 
-  <!-- Location line -->
-  <text x="170" y="170" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" fill="#8b949e">
-    📍 São Paulo, Brasil · 🎓 CEFSA · 🏫 ETESP
+  <!-- Location -->
+  <text x="130" y="152" font-family="sans-serif" font-size="12" fill="#8b949e">
+    Sao Paulo, Brazil  |  CEFSA  |  ETESP
   </text>
 
-  <!-- Bottom gradient bar -->
-  <rect x="170" y="180" width="680" height="1" fill="url(#accent1)" opacity="0.3"/>
+  <!-- Status badge -->
+  <rect x="660" y="55" width="95" height="20" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="668" y="69" font-family="monospace" font-size="10" fill="#3fb950">system ready</text>
 
-  <!-- Stats bar -->
-  <text x="170" y="200" font-family="'Courier New', monospace" font-size="11" fill="#484f58">
-    STATUS: 
-    <tspan fill="#3fb950">● learning</tspan>
-    <tspan fill="#484f58">  |  UPTIME: 24/7  |  FOCUS: back-end & automation</tspan>
+  <!-- Bottom divider -->
+  <rect x="130" y="168" width="640" height="1" fill="url(#accent)" opacity="0.3"/>
+  <text x="130" y="186" font-family="monospace" font-size="10" fill="#484f58">
+    STATUS: learning  |  FOCUS: back-end &amp; automation  |  UPTIME: 24/7
   </text>
 
-  <!-- Right side - info cards -->
-  <rect x="660" y="65" width="80" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
-  <text x="670" y="80" font-family="'Courier New', monospace" font-size="10" fill="#3fb950">system ready ✅</text>
-
-  <!-- Bottom-right code brackets decoration -->
-  <text x="830" y="195" font-family="'Courier New', monospace" font-size="24" fill="#21262d" opacity="0.5">{ ; }</text>
-
-  <!-- Bottom accent bar -->
-  <rect x="0" y="217" width="900" height="3" fill="url(#accent1)" opacity="0.8"/>
+  <rect x="0" y="197" width="900" height="3" fill="url(#accent)" opacity="0.9"/>
 </svg>

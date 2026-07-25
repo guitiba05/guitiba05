@@ -15,10 +15,10 @@ class Guilherme:
     def __init__(self):
         self.focus   = ["Back-end", "Automation", "Web Dev"]
         self.stack   = ["Python", "Java", "C#", "SQL", "TypeScript"]
-        self.learning = "Sempre evoluindo 🚀"
+        self.learning = "Sempre evoluindo"
     
     def greet(self):
-        return "Transformando ideias em código!"
+        return "Transformando ideias em codigo!"
 ```
 
 <br/>
